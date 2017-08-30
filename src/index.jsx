@@ -22,7 +22,7 @@ class Shiitake extends React.Component {
   static propTypes = {
     lines: PropTypes.number.isRequired,
     className: PropTypes.string,
-    children: PropTypes.string.isRequired,
+    children: PropTypes.any.isRequired,
     renderFullOnServer: PropTypes.bool,
     throttleRate: PropTypes.number,
     tagName: PropTypes.string,
